@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "303020721999",
+    "project_id": "guardian-e0ccd",
+    "storage_bucket": "guardian-e0ccd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:303020721999:android:1600b87dc0caa3ba7e673a",
+        "android_client_info": {
+          "package_name": "com.inertia.guardian"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "303020721999-5hmnn51a5ermv8i8724uqq9n5is78ha6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4CZWhQwAOZPVyM6D7fEnKSjThVnILX4I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "303020721999-5hmnn51a5ermv8i8724uqq9n5is78ha6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

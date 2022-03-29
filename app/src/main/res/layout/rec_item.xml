@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="10dp"
+    android:layout_marginTop="5dp"
+    android:backgroundTint="?attr/bg"
+    android:id="@+id/card"
+    android:layout_marginBottom="5dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:foregroundGravity="center"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp">
+
+
+        <LinearLayout
+            android:layout_marginStart="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                android:autoSizeMaxTextSize="20sp"
+                android:autoSizeMinTextSize="5sp"
+                android:autoSizeStepGranularity="2sp"
+                android:textColor="?attr/text"
+                android:fontFamily="@font/mons"
+                android:id="@+id/rec_name"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="time"
+                android:autoSizeMaxTextSize="20sp"
+                android:autoSizeMinTextSize="4sp"
+                android:autoSizeStepGranularity="2sp"
+                android:textColor="?attr/subtext"
+                android:fontFamily="@font/mons"
+                android:id="@+id/rec_time"/>
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginStart="10dp">
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:tint="@android:color/white"
+
+            android:src="@drawable/ic_outline_play_arrow_24"
+            app:fabCustomSize="30dp"
+            android:id="@+id/play"
+            android:backgroundTint="?attr/appcolor"/>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:tint="@android:color/white"
+
+            android:src="@drawable/ic_outline_arrow_downward_24"
+            app:fabCustomSize="30dp"
+            android:id="@+id/download"
+            android:backgroundTint="?attr/appcolor"/>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:tint="@android:color/white"
+            android:src="@drawable/ic_outline_share_24"
+            app:fabCustomSize="30dp"
+            android:id="@+id/share"
+            android:backgroundTint="?attr/appcolor"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
