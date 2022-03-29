@@ -36,7 +36,7 @@ class SignUp : AppCompatActivity() {
         val branch:AutoCompleteTextView = findViewById(R.id.branch)
 
         val signUp:Button = findViewById(R.id.signup)
-        val signin:Button = findViewById(R.id.login)
+        val signin:Button = findViewById(R.id.loginn)
 
         auth = FirebaseAuth.getInstance()
 
@@ -113,7 +113,7 @@ class SignUp : AppCompatActivity() {
         }
 
         signin.setOnClickListener {
-            val i = Intent(this,signin::class.java)
+            val i = Intent(this,Signin::class.java)
             startActivity(i)
             finish()
         }

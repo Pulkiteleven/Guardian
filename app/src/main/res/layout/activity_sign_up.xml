@@ -239,6 +239,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="40dp"
                 android:id="@+id/signup"
+                android:fontFamily="@font/mons"
                 android:backgroundTint="?attr/appcolor"
                 android:text="Sign Up" />
 
@@ -253,11 +254,12 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/login"
+                android:id="@+id/loginn"
+                android:fontFamily="@font/mons"
                 android:textColor="?attr/appcolor"
                 android:backgroundTint="?attr/bg"
                 android:layout_marginBottom="20dp"
-                android:text="Login" />
+                android:text="Sign in" />
         </LinearLayout>
 </ScrollView>
 

@@ -104,8 +104,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="40dp"
                 android:id="@+id/login"
+                android:fontFamily="@font/mons"
                 android:backgroundTint="?attr/appcolor"
-                android:text="Log in" />
+                android:text="Sign in" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -119,6 +120,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/signup"
+                android:fontFamily="@font/mons"
                 android:textColor="?attr/appcolor"
                 android:backgroundTint="?attr/bg"
                 android:text="Sign up" />
