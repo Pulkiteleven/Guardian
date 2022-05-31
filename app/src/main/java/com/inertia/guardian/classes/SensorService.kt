@@ -48,6 +48,8 @@ class SensorService: Service() {
     var date:String ?= null
     var time:String ?= null
 
+    var startRecording:Boolean = true
+
 
 
 
@@ -85,19 +87,26 @@ class SensorService: Service() {
             override fun onShake(count: Int) {
                 // check if the user has shacked
                 // the phone for 3 time in a row
+                var isRecording:SharedPreferences = getSharedPreferences("reci", MODE_PRIVATE)
+
                 if (count >= 3) {
-                    var sf:SharedPreferences = getSharedPreferences("keyword",MODE_PRIVATE)
-                    s = sf.getString("keys","red")
-                    vibrate()
-                    listener()
-                    spc?.startListening(reci)
+                    if (startRecording) {
+                        var sf: SharedPreferences = getSharedPreferences("keyword", MODE_PRIVATE)
+                        s = sf.getString("keys", "red")
+                        vibrate()
+                        listener()
+                        spc?.startListening(reci)
+                    }
                 }
                 if (count >= 5){
-                    var sf:SharedPreferences = getSharedPreferences("keyword",MODE_PRIVATE)
-                    var ii = sf.getInt("total",4)
-                    vibrate()
-                    Toast.makeText(this@SensorService, "Recording Started", Toast.LENGTH_SHORT).show()
-                    loopRecorder(ii)
+                    if (startRecording) {
+                        var sf: SharedPreferences = getSharedPreferences("keyword", MODE_PRIVATE)
+                        var ii = sf.getInt("total", 4)
+                        vibrate()
+                        Toast.makeText(this@SensorService, "Recording Started", Toast.LENGTH_SHORT)
+                            .show()
+                        loopRecorder(ii)
+                    }
                 }
             }
         })
@@ -241,6 +250,7 @@ class SensorService: Service() {
         }
 
         recorder?.start()
+        startRecording = false
     }
 
     private fun stopRecording(){
@@ -251,6 +261,7 @@ class SensorService: Service() {
             var a = date + " " + time
             Adder(uuid!!, fileName!!,a)
             recorder = null
+            startRecording = true
         }
     }
 
