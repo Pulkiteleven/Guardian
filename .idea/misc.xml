@@ -3,6 +3,20 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Team Inerita/Guardian/app/src/main/res/drawable/circle.xml" value="0.2465" />
+        <entry key="..\:/Team Inerita/Guardian/app/src/main/res/drawable/ic_outline_lock_24.xml" value="0.2465" />
+        <entry key="..\:/Team Inerita/Guardian/app/src/main/res/drawable/ic_outline_perm_identity_24.xml" value="0.2465" />
+        <entry key="..\:/Team Inerita/Guardian/app/src/main/res/drawable/ic_outline_record_voice_over_24.xml" value="0.2465" />
+        <entry key="..\:/Team Inerita/Guardian/app/src/main/res/layout/activity_about.xml" value="0.264" />
+        <entry key="..\:/Team Inerita/Guardian/app/src/main/res/layout/activity_admin_panel.xml" value="0.24947916666666667" />
+        <entry key="..\:/Team Inerita/Guardian/app/src/main/res/layout/activity_contact_picker.xml" value="0.24947916666666667" />
+        <entry key="..\:/Team Inerita/Guardian/app/src/main/res/layout/activity_developer.xml" value="0.264" />
+        <entry key="..\:/Team Inerita/Guardian/app/src/main/res/layout/activity_main.xml" value="0.24947916666666667" />
+        <entry key="..\:/Team Inerita/Guardian/app/src/main/res/layout/activity_personal_report.xml" value="0.24947916666666667" />
+        <entry key="..\:/Team Inerita/Guardian/app/src/main/res/layout/activity_privacy_policy.xml" value="0.24947916666666667" />
+        <entry key="..\:/Team Inerita/Guardian/app/src/main/res/layout/activity_recordings.xml" value="0.24947916666666667" />
+        <entry key="..\:/Team Inerita/Guardian/app/src/main/res/layout/activity_report.xml" value="0.24947916666666667" />
+        <entry key="..\:/Team Inerita/Guardian/app/src/main/res/layout/dropdown_menu_popup_item.xml" value="0.24947916666666667" />
         <entry key="..\:/Users/Pulkiteleven/Desktop/Guardian/app/src/main/res/drawable/bgs.xml" value="0.159" />
         <entry key="..\:/Users/Pulkiteleven/Desktop/Guardian/app/src/main/res/drawable/btn_bg.xml" value="0.1695" />
         <entry key="..\:/Users/Pulkiteleven/Desktop/Guardian/app/src/main/res/drawable/circle.xml" value="0.2175" />

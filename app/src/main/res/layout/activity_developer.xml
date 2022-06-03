@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -58,32 +58,28 @@
 
         </RelativeLayout>
         <LinearLayout
-            android:layout_marginTop="100dp"
+            android:layout_marginTop="50dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:layout_marginStart="10dp"
-            android:layout_marginEnd="10dp"
-            >
+            android:layout_marginEnd="10dp">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="About Developer"
+                android:text="About Developers"
                 android:layout_gravity="center"
                 android:textColor="?attr/text"
                 android:textSize="25dp"
                 android:fontFamily="@font/mons"/>
-
-
-
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="5dp"
-                android:text="Inert!a"
+                android:text="Team Inert!a"
                 android:textColor="?attr/text"
                 android:textSize="20dp"
                 android:fontFamily="@font/mons"/>
@@ -95,10 +91,316 @@
                 android:textAlignment="center"
                 android:paddingStart="10dp"
                 android:paddingEnd="10dp"
-                android:text="This app is developed by team Inert!a"
+                android:text="The Guardian app and website developed by Team Inert!a's App and Web Developers."
                 android:textColor="?attr/text"
                 android:textSize="20dp"
                 android:fontFamily="@font/mons"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                app:cardBackgroundColor="@android:color/transparent"
+                app:cardElevation="@dimen/cardview_default_elevation"
+                app:cardCornerRadius="300dp">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/pulkit"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:text="Pulkit Dubey"
+                android:textColor="?attr/text"
+                android:textSize="20dp"
+                android:fontFamily="@font/mons"/>
+
+            <TextView
+                android:id="@+id/pulkit_role"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:text="App Developer | UI/UX Designer"
+                android:textColor="?attr/text"
+                android:textSize="15dp"
+                android:fontFamily="@font/mons"/>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/pulkit_linkedin"
+            style="@style/Widget.MaterialComponents.FloatingActionButton"
+            android:layout_width="346dp"
+            android:layout_height="30dp"
+            android:backgroundTint="#0072B1"
+            app:fabCustomSize="30dp"
+            app:maxImageSize="15dp"
+            app:srcCompat="@drawable/icon"
+            app:tint="@color/white"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/pulkit_instagram"
+                style="@style/Widget.MaterialComponents.FloatingActionButton"
+                android:layout_width="346dp"
+                android:layout_height="30dp"
+                android:backgroundTint="@color/white"
+                app:fabCustomSize="30dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@id/pulkit_linkedin"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                app:maxImageSize="15dp"
+                app:srcCompat="@drawable/instagram"
+                app:tint="" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/pulkit_github"
+                style="@style/Widget.MaterialComponents.FloatingActionButton"
+                android:layout_width="346dp"
+                android:layout_height="30dp"
+                android:backgroundTint="@color/white"
+                app:fabCustomSize="30dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/pulkit_linkedin"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                app:maxImageSize="25dp"
+                app:srcCompat="@drawable/github"
+                app:tint="" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                app:cardBackgroundColor="@android:color/transparent"
+                app:cardElevation="@dimen/cardview_default_elevation"
+                app:cardCornerRadius="300dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/satyam"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:text="Satyam Sharma"
+                android:textColor="?attr/text"
+                android:textSize="20dp"
+                android:fontFamily="@font/mons"/>
+
+            <TextView
+                android:id="@+id/satyam_role"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:text="Web Developer | App Developer"
+                android:textColor="?attr/text"
+                android:textSize="15dp"
+                android:fontFamily="@font/mons"/>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/satyam_linkedin"
+                    style="@style/Widget.MaterialComponents.FloatingActionButton"
+                    android:layout_width="346dp"
+                    android:layout_height="30dp"
+                    android:backgroundTint="#0072B1"
+                    app:fabCustomSize="30dp"
+                    app:maxImageSize="15dp"
+                    app:srcCompat="@drawable/icon"
+                    app:tint="@color/white"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"/>
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/satyam_instagram"
+                    style="@style/Widget.MaterialComponents.FloatingActionButton"
+                    android:layout_width="346dp"
+                    android:layout_height="30dp"
+                    android:backgroundTint="@color/white"
+                    app:fabCustomSize="30dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toEndOf="@id/satyam_linkedin"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0"
+                    app:maxImageSize="15dp"
+                    app:srcCompat="@drawable/instagram"
+                    app:tint="" />
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/satyam_github"
+                    style="@style/Widget.MaterialComponents.FloatingActionButton"
+                    android:layout_width="346dp"
+                    android:layout_height="30dp"
+                    android:backgroundTint="@color/white"
+                    app:fabCustomSize="30dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@id/satyam_linkedin"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0"
+                    app:maxImageSize="25dp"
+                    app:srcCompat="@drawable/github"
+                    app:tint="" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:layout_marginBottom="50dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                app:cardBackgroundColor="@android:color/transparent"
+                app:cardElevation="@dimen/cardview_default_elevation"
+                app:cardCornerRadius="300dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/image"
+                    android:background="@drawable/manish"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:text="Manish Singh"
+                android:textColor="?attr/text"
+                android:textSize="20dp"
+                android:fontFamily="@font/mons"/>
+
+            <TextView
+                android:id="@+id/role"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:text="Web Developer | UI/UX Designer"
+                android:textColor="?attr/text"
+                android:textSize="15dp"
+                android:fontFamily="@font/mons"/>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/manish_linkedin"
+                    style="@style/Widget.MaterialComponents.FloatingActionButton"
+                    android:layout_width="346dp"
+                    android:layout_height="30dp"
+                    android:backgroundTint="#0072B1"
+                    app:fabCustomSize="30dp"
+                    app:maxImageSize="15dp"
+                    app:srcCompat="@drawable/icon"
+                    app:tint="@color/white"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"/>
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/manish_instagram"
+                    style="@style/Widget.MaterialComponents.FloatingActionButton"
+                    android:layout_width="346dp"
+                    android:layout_height="30dp"
+                    android:backgroundTint="@color/white"
+                    app:fabCustomSize="30dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toEndOf="@id/manish_linkedin"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0"
+                    app:maxImageSize="15dp"
+                    app:srcCompat="@drawable/instagram"
+                    app:tint="" />
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/github"
+                    style="@style/Widget.MaterialComponents.FloatingActionButton"
+                    android:layout_width="346dp"
+                    android:layout_height="30dp"
+                    android:backgroundTint="@color/white"
+                    app:fabCustomSize="30dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@id/manish_linkedin"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0"
+                    app:maxImageSize="25dp"
+                    app:srcCompat="@drawable/github"
+                    app:tint="" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
         </LinearLayout>
 
 
@@ -107,4 +409,4 @@
 
 
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
