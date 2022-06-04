@@ -58,7 +58,7 @@
 
         </RelativeLayout>
         <LinearLayout
-            android:layout_marginTop="100dp"
+            android:layout_marginTop="50dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
@@ -82,13 +82,13 @@
             android:layout_height="75dp"
             android:src="@mipmap/ic_launcher_round"
             android:layout_gravity="center"
-            android:layout_marginTop="10dp"/>
+            android:layout_marginTop="20dp"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="20dp"
             android:text="Guardian"
             android:textColor="?attr/text"
             android:textSize="20dp"
@@ -107,7 +107,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="10dp"
             android:textAlignment="center"
             android:paddingStart="10dp"
             android:paddingEnd="10dp"
@@ -122,7 +122,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="25dp"
             android:textAlignment="center"
             android:paddingStart="10dp"
             android:paddingEnd="10dp"
