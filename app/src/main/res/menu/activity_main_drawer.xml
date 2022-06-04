@@ -19,7 +19,7 @@
                 <item
                     android:id="@+id/nav_dev"
                     android:icon="@drawable/ic_outline_account_box_24"
-                    android:title="About Developer" />
+                    android:title="About Developers" />
                 <item
                     android:id="@+id/nav_story"
                     android:icon="@drawable/ic_outline_menu_book_24"

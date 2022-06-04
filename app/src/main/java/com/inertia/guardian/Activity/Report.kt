@@ -35,6 +35,7 @@ import com.google.firebase.storage.StorageReference
 import com.inertia.guardian.MainActivity
 import com.inertia.guardian.NavActivity.About
 import com.inertia.guardian.NavActivity.Developer
+import com.inertia.guardian.NavActivity.OurStory
 import com.inertia.guardian.NavActivity.PrivacyPolicy
 import com.inertia.guardian.R
 import java.io.File
@@ -440,7 +441,7 @@ class Report : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListe
                 shareit()
             }
             R.id.nav_story -> {
-                val i = Intent(this, Developer::class.java)
+                val i = Intent(this, OurStory::class.java)
                 i.putExtra("story", story)
                 startActivity(i)
             }

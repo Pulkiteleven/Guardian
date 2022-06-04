@@ -5,11 +5,13 @@ import android.os.Bundle
 import android.webkit.WebView
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.inertia.guardian.R
+import com.inertia.guardian.R.id.web
+import com.inertia.guardian.R.layout.activity_our_story
 
 class OurStory : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_our_story)
+        setContentView(activity_our_story)
 
         supportActionBar?.hide()
         val back: FloatingActionButton = findViewById(R.id.back)
@@ -19,7 +21,7 @@ class OurStory : AppCompatActivity() {
         }
 
         val link = intent.getStringExtra("story")
-        val webView: WebView = findViewById(R.id.web)
+        val webView: WebView = findViewById(web)
         webView.loadUrl(link!!)
     }
 }
