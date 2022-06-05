@@ -57,7 +57,7 @@
                     android:layout_marginStart="15dp"
                     android:layout_marginTop="15dp"
                     android:fontFamily="@font/mons"
-                    android:text="I'm Your Guardian"
+                    android:text="I'm Your Guardian."
                     android:textColor="@color/white"
                     android:textSize="20sp"
                     tools:ignore="HardcodedText" />
@@ -132,7 +132,7 @@ minimal steps."
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:fontFamily="@font/mons"
-                    android:text="How it works"
+                    android:text="How it works?"
                     android:textColor="?attr/appcolor"
                     android:textSize="17sp" />
 
@@ -146,6 +146,7 @@ minimal steps."
                     <androidx.cardview.widget.CardView
                         android:layout_width="15dp"
                         android:layout_height="15dp"
+                        android:layout_marginTop="3dp"
                         android:backgroundTint="?attr/appcolor"
                         app:cardCornerRadius="20dp">
 
@@ -156,10 +157,10 @@ minimal steps."
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
-                        android:layout_marginStart="5dp"
+                        android:layout_marginStart="10dp"
                         android:fontFamily="@font/mons"
                         android:text="Shake your phone more than 3 times &amp; say your Key-word.
-App will automatically start the audio recording"
+App will automatically start the audio recording."
                         android:textColor="?attr/subtext" />
 
                 </LinearLayout>
@@ -174,6 +175,7 @@ App will automatically start the audio recording"
                     <androidx.cardview.widget.CardView
                         android:layout_width="15dp"
                         android:layout_height="15dp"
+                        android:layout_marginTop="3dp"
                         android:backgroundTint="?attr/appcolor"
                         app:cardCornerRadius="20dp">
 
@@ -184,9 +186,9 @@ App will automatically start the audio recording"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
-                        android:layout_marginStart="5dp"
+                        android:layout_marginStart="10dp"
                         android:fontFamily="@font/mons"
-                        android:text="Else shake your phone more than 5 times"
+                        android:text="Else shake your phone more than 5 times."
                         android:textColor="?attr/subtext" />
 
                 </LinearLayout>
@@ -227,7 +229,7 @@ App will automatically start the audio recording"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="10dp"
                         android:layout_marginEnd="10dp"
-                        android:hint="total no. of recordings"
+                        android:hint="Total no. of recordings"
                         android:textColorHint="?attr/appcolor"
                         app:boxStrokeColor="?attr/subtext"
                         app:boxStrokeWidth="0.5dp"
@@ -307,7 +309,7 @@ App will automatically start the audio recording"
                         android:layout_marginStart="10dp"
                         android:layout_marginTop="10dp"
                         android:fontFamily="@font/mons"
-                        android:text="By default Keyword id 'RED'"
+                        android:text="By default Keyword id 'RED'."
                         android:textColor="?attr/subtext"
                         android:textSize="15sp" />
 
@@ -323,7 +325,7 @@ App will automatically start the audio recording"
                     android:layout_marginEnd="10dp"
                     android:backgroundTint="?attr/appcolor"
                     android:fontFamily="@font/mons"
-                    android:text="GUARD"
+                    android:text="GUARD ME"
                     android:textColor="@color/white"
                     android:textSize="15dp"
                     app:cornerRadius="200dp"
