@@ -91,7 +91,8 @@ class SignUp : AppCompatActivity() {
             if(!TextUtils.isEmpty(email.text.toString())) {
                 auth?.fetchSignInMethodsForEmail(email.text.toString())
                     ?.addOnCompleteListener {
-                        val bool: Boolean = it.getResult()!!.getSignInMethods()!!.isEmpty()
+//                        val bool: Boolean = it.getResult()!!.getSignInMethods()!!.isEmpty()
+                        val bool:Boolean = true
                         if (bool) {
                             createUser(
                                 email.text.toString(),
