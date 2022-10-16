@@ -126,7 +126,7 @@
             android:textAlignment="center"
             android:paddingStart="10dp"
             android:paddingEnd="10dp"
-            android:text="Contact us here at:"
+            android:text="Contact us here at"
             android:textColor="?attr/text"
             android:textSize="20dp"
             android:fontFamily="@font/mons"/>
