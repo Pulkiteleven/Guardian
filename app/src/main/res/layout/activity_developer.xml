@@ -151,14 +151,14 @@
                 style="@style/Widget.MaterialComponents.FloatingActionButton"
                 android:layout_width="30dp"
                 android:layout_height="30dp"
-                android:backgroundTint="#0072B1"
+                android:backgroundTint="@color/bgl"
                 app:fabCustomSize="30dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:maxImageSize="15dp"
-                app:srcCompat="@drawable/icon"
+                app:maxImageSize="30dp"
+                app:srcCompat="@drawable/linkedin1"
                 app:tint="@color/white" />
 
             <com.google.android.material.floatingactionbutton.FloatingActionButton
@@ -166,7 +166,7 @@
                 style="@style/Widget.MaterialComponents.FloatingActionButton"
                 android:layout_width="30dp"
                 android:layout_height="30dp"
-                android:backgroundTint="@color/white"
+                android:backgroundTint="@color/bgl"
                 app:fabCustomSize="30dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -174,16 +174,16 @@
                 app:layout_constraintStart_toEndOf="@id/pulkit_linkedin"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.0"
-                app:maxImageSize="20dp"
-                app:srcCompat="@drawable/instagram"
-                app:tint="@null" />
+                app:maxImageSize="30dp"
+                app:srcCompat="@drawable/instagram1"
+                app:tint="@color/white" />
 
             <com.google.android.material.floatingactionbutton.FloatingActionButton
                 android:id="@+id/pulkit_github"
                 style="@style/Widget.MaterialComponents.FloatingActionButton"
                 android:layout_width="30dp"
                 android:layout_height="30dp"
-                android:backgroundTint="@color/white"
+                android:backgroundTint="@color/bgl"
                 app:fabCustomSize="30dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@id/pulkit_linkedin"
@@ -192,8 +192,8 @@
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.0"
                 app:maxImageSize="30dp"
-                app:srcCompat="@drawable/github"
-                app:tint="@null" />
+                app:srcCompat="@drawable/github1"
+                app:tint="@color/white" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -252,22 +252,23 @@
                     style="@style/Widget.MaterialComponents.FloatingActionButton"
                     android:layout_width="30dp"
                     android:layout_height="30dp"
-                    android:backgroundTint="#0072B1"
+                    android:backgroundTint="@color/bgl"
                     app:fabCustomSize="30dp"
-                    app:maxImageSize="15dp"
-                    app:srcCompat="@drawable/icon"
+                    app:maxImageSize="30dp"
+                    app:srcCompat="@drawable/linkedin1"
                     app:tint="@color/white"
                     app:layout_constraintTop_toTopOf="parent"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"/>
+                    app:layout_constraintStart_toStartOf="parent"
+                    />
 
                 <com.google.android.material.floatingactionbutton.FloatingActionButton
                     android:id="@+id/satyam_instagram"
                     style="@style/Widget.MaterialComponents.FloatingActionButton"
                     android:layout_width="30dp"
                     android:layout_height="30dp"
-                    android:backgroundTint="@color/white"
+                    android:backgroundTint="@color/bgl"
                     app:fabCustomSize="30dp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -275,16 +276,16 @@
                     app:layout_constraintStart_toEndOf="@id/satyam_linkedin"
                     app:layout_constraintTop_toTopOf="parent"
                     app:layout_constraintVertical_bias="0.0"
-                    app:maxImageSize="15dp"
-                    app:srcCompat="@drawable/instagram"
-                    app:tint="@null" />
+                    app:maxImageSize="30dp"
+                    app:srcCompat="@drawable/instagram1"
+                    app:tint="@color/white" />
 
                 <com.google.android.material.floatingactionbutton.FloatingActionButton
                     android:id="@+id/satyam_github"
                     style="@style/Widget.MaterialComponents.FloatingActionButton"
                     android:layout_width="30dp"
                     android:layout_height="30dp"
-                    android:backgroundTint="@color/white"
+                    android:backgroundTint="@color/bgl"
                     app:fabCustomSize="30dp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toStartOf="@id/satyam_linkedin"
@@ -293,8 +294,8 @@
                     app:layout_constraintTop_toTopOf="parent"
                     app:layout_constraintVertical_bias="0.0"
                     app:maxImageSize="30dp"
-                    app:srcCompat="@drawable/github"
-                    app:tint="@null"/>
+                    app:srcCompat="@drawable/github1"
+                    app:tint="@color/white"/>
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -354,10 +355,10 @@
                     style="@style/Widget.MaterialComponents.FloatingActionButton"
                     android:layout_width="30dp"
                     android:layout_height="30dp"
-                    android:backgroundTint="#0072B1"
+                    android:backgroundTint="@color/bgl"
                     app:fabCustomSize="30dp"
-                    app:maxImageSize="15dp"
-                    app:srcCompat="@drawable/icon"
+                    app:maxImageSize="30dp"
+                    app:srcCompat="@drawable/linkedin1"
                     app:tint="@color/white"
                     app:layout_constraintTop_toTopOf="parent"
                     app:layout_constraintBottom_toBottomOf="parent"
@@ -369,7 +370,7 @@
                     style="@style/Widget.MaterialComponents.FloatingActionButton"
                     android:layout_width="30dp"
                     android:layout_height="30dp"
-                    android:backgroundTint="@color/white"
+                    android:backgroundTint="@color/bgl"
                     app:fabCustomSize="30dp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -377,16 +378,16 @@
                     app:layout_constraintStart_toEndOf="@id/manish_linkedin"
                     app:layout_constraintTop_toTopOf="parent"
                     app:layout_constraintVertical_bias="0.0"
-                    app:maxImageSize="15dp"
-                    app:srcCompat="@drawable/instagram"
-                    app:tint="@null" />
+                    app:maxImageSize="30dp"
+                    app:srcCompat="@drawable/instagram1"
+                    app:tint="@color/white" />
 
                 <com.google.android.material.floatingactionbutton.FloatingActionButton
                     android:id="@+id/manish_github"
                     style="@style/Widget.MaterialComponents.FloatingActionButton"
                     android:layout_width="30dp"
                     android:layout_height="30dp"
-                    android:backgroundTint="@color/white"
+                    android:backgroundTint="@color/bgl"
                     app:fabCustomSize="30dp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toStartOf="@id/manish_linkedin"
@@ -395,8 +396,8 @@
                     app:layout_constraintTop_toTopOf="parent"
                     app:layout_constraintVertical_bias="0.0"
                     app:maxImageSize="30dp"
-                    app:srcCompat="@drawable/github"
-                    app:tint="@null" />
+                    app:srcCompat="@drawable/github1"
+                    app:tint="@color/white" />
 
 
             </androidx.constraintlayout.widget.ConstraintLayout>
@@ -457,10 +458,10 @@
                     style="@style/Widget.MaterialComponents.FloatingActionButton"
                     android:layout_width="30dp"
                     android:layout_height="30dp"
-                    android:backgroundTint="#0072B1"
+                    android:backgroundTint="@color/bgl"
                     app:fabCustomSize="30dp"
-                    app:maxImageSize="15dp"
-                    app:srcCompat="@drawable/icon"
+                    app:maxImageSize="30dp"
+                    app:srcCompat="@drawable/linkedin1"
                     app:tint="@color/white"
                     app:layout_constraintTop_toTopOf="parent"
                     app:layout_constraintBottom_toBottomOf="parent"
@@ -472,7 +473,7 @@
                     style="@style/Widget.MaterialComponents.FloatingActionButton"
                     android:layout_width="30dp"
                     android:layout_height="30dp"
-                    android:backgroundTint="@color/white"
+                    android:backgroundTint="@color/bgl"
                     app:fabCustomSize="30dp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -480,16 +481,16 @@
                     app:layout_constraintStart_toEndOf="@id/shubham_linkedin"
                     app:layout_constraintTop_toTopOf="parent"
                     app:layout_constraintVertical_bias="0.0"
-                    app:maxImageSize="15dp"
-                    app:srcCompat="@drawable/instagram"
-                    app:tint="@null" />
+                    app:maxImageSize="30dp"
+                    app:srcCompat="@drawable/instagram1"
+                    app:tint="@color/white" />
 
                 <com.google.android.material.floatingactionbutton.FloatingActionButton
                     android:id="@+id/shubham_github"
                     style="@style/Widget.MaterialComponents.FloatingActionButton"
                     android:layout_width="30dp"
                     android:layout_height="30dp"
-                    android:backgroundTint="@color/white"
+                    android:backgroundTint="@color/bgl"
                     app:fabCustomSize="30dp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toStartOf="@id/shubham_linkedin"
@@ -498,8 +499,8 @@
                     app:layout_constraintTop_toTopOf="parent"
                     app:layout_constraintVertical_bias="0.0"
                     app:maxImageSize="30dp"
-                    app:srcCompat="@drawable/github"
-                    app:tint="@null" />
+                    app:srcCompat="@drawable/github1"
+                    app:tint="@color/white" />
 
 
             </androidx.constraintlayout.widget.ConstraintLayout>
